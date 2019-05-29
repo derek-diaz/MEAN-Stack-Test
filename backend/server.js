@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 const router = express();
 
-const dbRoute = 'mongodb+srv://admin:DCFkR7rpTWjolaDF@cluster0-zryxj.mongodb.net/test?retryWrites=true';
+const dbRoute = 'mongodb+srv://admin:#########@cluster0-zryxj.mongodb.net/test?retryWrites=true';
 
 mongoose.connect(dbRoute, {useNewUrlParser: true});
 
